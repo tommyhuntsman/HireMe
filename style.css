@@ -56,7 +56,7 @@ h1 {
 }
 
 .mySlides {
-  display: initial;
+  display: block;
 }
 
 img {
