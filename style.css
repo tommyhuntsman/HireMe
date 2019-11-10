@@ -23,7 +23,7 @@ body {
 h1 {
   font-family: arial;
   color: ;
-  margin-bottom: 1px
+  margin-bottom: 0px
 }
 
 .nav-container {
@@ -75,14 +75,14 @@ img {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 25px;
-  height:100%;
-  width: 50%;
+  top: 180px;
+  height:auto;
+  width: auto;
   padding: 16px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -96,7 +96,7 @@ img {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: /*rgba(0,0,0,0.05); */
+  background-color: rgba(0,0,0,0.05);
 }
 
 /* Caption text */
